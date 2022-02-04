@@ -1,0 +1,249 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assests/css/bootstrap.min.css">
+
+
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+
+    <link rel="stylesheet" href="../assest/css/style1.css">
+    <title>Contact</title>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+          <a href="/" class="navbar-brand">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="my-2 me-2" viewBox="0 0 118 94" role="img"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path>
+            </svg>
+            Bootstrap Tamil
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#myNavBar"
+            aria-controls="myNavBar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="myNavBar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="bootstrap-harizontal-forms.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="courses.html" class="nav-link">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="login.html" class="nav-link">Login</a>
+              </li>
+
+              <li class="nav-item me-3">
+                <a href="contact.html" class="nav-link active">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="btn btn-success shadow-none my-2 my-sm-0 ml-0 ml-sm-3 dropdown-toggle active"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Register
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="register.html">Member</a>
+                  <a class="dropdown-item" href="tutorial-register.html">
+                    Tutorial request
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Content -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-8">
+                <!-- map -->
+                <iframe class="col-md-12" height="800" id="gmap_canvas" src="https://maps.google.com/maps?q=Chennai&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">Contact Page</div>
+                    <div class="card-body">
+
+                        <form action="" method="POST">
+                            <!-- 
+                                Name [Text]
+                                number [number]
+                                email [email]
+                                message [textarea]
+                                source [select]
+                                buttton [button]
+                             -->
+                             <div class="mb-3">
+        
+                             <label for="name" class="form-label">
+                               Full name 
+                               
+                              </label>
+                             <input 
+                             type="text" 
+                             class="form-control" 
+                             name="" 
+                             id="name" 
+                             name="name" 
+                             placeholder="Enter Your Full name"
+                             required
+                             >
+                            </div>
+
+                            <div class="mb-3">
+                              <label for="gender" class="form-label">Gender</label>
+                              <div class="ms-2 form-check form-check-inline">                               
+                                
+                                  <input 
+                                  type="radio" 
+                                  name="gender" 
+                                  id="gender"                                    
+                                  value="male" 
+                                  >
+    
+                                   <label for="gender" class="form-check-label">
+                                     Male
+                                    </label>
+                                    
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                  <input 
+                                  type="radio" 
+                                  name="gender" 
+                                  id="gender"                                  
+                                  value="female" 
+                                  >
+    
+                                  <label for="gender" class="form-check-label">
+                                    Female
+                                  </label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                  <input 
+                                  type="radio" 
+                                  name="gender" 
+                                  id="gender"                                  
+                                  value="others" 
+                                  >    
+                                  <label for="gender" class="form-check-label">
+                                    Other
+                                  </label>    
+                                </div>                            
+
+                            </div>
+
+                            <div class="mb-3">
+
+                             <label for="phone" class="form-label">
+                               Mobile no. 
+                               <span class="text-muted">(Optional)</span>
+                              </label>
+                             <input 
+                             type="number" 
+                             class="form-control" 
+                             name="" 
+                             id="phone" 
+                             placeholder="+919835397692"
+                             required
+                             >
+                             </div>
+
+                             <div class="mb-3">
+                                 <label for="email" class="form-label">
+                                   Email                                    
+                                  </label>
+                                 <input 
+                                 type="email" 
+                                 name="email" 
+                                 id="email" 
+                                 class="form-control" 
+                                 placeholder="you@awesome.com" 
+                                 aria-describedby="emailHelp"
+                                 >
+
+                                 <small id="emailHelp">We'll never share your email with anyone else.</small>
+                             </div>
+
+                             <!-- source -->
+                             <div class="mb-3">
+                               <label for="source" class="form-label">Came From</label>
+                               <select name="source" id="source" class="form-control">
+                                 <option value="">--Select Source--</option>
+                                 <option value="GOOGLE">GOOGLE</option>
+                                 <option value="FACEBOOK">FACEBOOK</option>
+                                 <option value="YOUTUBE">YOUTUBE</option>
+                               </select>
+                             </div>
+
+                             <!-- Message -->
+                             <div class="mb-3">
+                               <label for="message" class="form-label">Message</label>
+                               <textarea name="message" id="message" class="form-control" rows="3" placeholder="Enter any message briefly!"></textarea>
+                             </div>
+
+                             <!-- agreements -->
+                             <div class="mb-3 form-check">
+                               
+                                 <input type="checkbox" id="agreement" class="form-check-input">
+                                 <label for="agreement" class="form-check-label">I Agree to Terms And Conditions</label>
+                               
+                             </div>
+
+                             <div class="mb-3">
+                               <div class="d-grid">
+                               <button type="submit" class="btn btn-primary">Submit</button>
+                              </div>
+                             </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- form -->
+            </div>
+        </div>
+    </div>
+    
+
+
+   
+  <script src="../assest/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

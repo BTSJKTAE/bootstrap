@@ -1,0 +1,171 @@
+﻿<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assest/css/bootstrap.min.css">
+
+
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+
+    <link rel="stylesheet" href="../assest/css/style1.css">
+    <title>Bootstrap harizontal cards</title>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a href="bootstrap-dropdown.html" class="navbar-brand">
+                    <img src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""
+                         loading="lazy" class="d-inline-block align-top">
+                    Bootstrap Tamil
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item active">
+                            <a href="bootstrap-dropdown.html" class="nav-link">Home</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="courses.html" class="nav-link">Courses</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Help
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://facebook.com" target="blank_">Facebook</a>
+                                <a class="dropdown-item" href="https://youtube.com" target="blank_">Youtube</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://github.com" target="blank_">Github</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="blog.html" class="nav-link">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Content -->
+    <div class="jumbotron">
+
+        <div class="container">
+            <h1 class="display-4">Hello There!</h1>
+            <p class="lead">Welcome to Bootstrap Tutorials in <span class="badge badge-success">தமிழ்</span> <i class="far fa-smile"></i> </p>
+            <hr class="mt-5">
+
+            <p>Before learning bootstrap, learn HTML, CSS, JAVASCRIPT(Optional)</p>
+
+            <div class="row">
+                <div class="col-6">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-home"></i>
+                        Getting Started!
+                    </button>
+        
+                    <button class="btn btn-outline-success"> <i class="fas fa-video"></i> Total Videos: <span class="badge badge-success">120</span> </button>        
+                </div>
+                <div class="col-6">
+                    <button 
+                    class="btn btn-primary dropdown-toggle" 
+                    data-bs-toggle="dropdown" 
+                    type="button" 
+                    id="contactMenuBtn" 
+                    aria-haspopup="true" 
+                    aria-expanded="false">
+                    Contact Us
+                    </button>
+
+                    <div class="dropdown-menu" aria-labelledby="contactMenuBtn">
+                        <a href="https://facebook.com" class="dropdown-item" target="blank_"> <i class="fab fa-facebook me-2 text-primary"></i> Facebook</a>
+                        <a href="https://youtube.com" class="dropdown-item" target="blank_"> <i class="fab fa-youtube me-2 text-danger"></i> Youtube</a>
+                        <a href="https://instagram.com" class="dropdown-item" target="blank_"> <i class="fab fa-instagram me-2 text-warning"></i> Instagram</a>
+                        <a href="https://twitter.com" class="dropdown-item" target="blank_"> <i class="fab fa-twitter me-2 text-primary"></i> Twitter</a>
+                        <a href="https://gmail.com" class="dropdown-item" target="blank_"> <i class="fas fa-envelope me-2 text-success"></i> Email</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="dropdown">
+            <a
+            href="#" 
+            class="btn btn-primary dropdown-toggle" 
+            data-bs-toggle="dropdown" 
+            role="button" 
+            id="contactMenuBtn" 
+            aria-haspopup="true" 
+            aria-expanded="false">
+            Contact Us
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="contactMenuBtn">
+                <a href="https://facebook.com" class="dropdown-item" target="blank_"> <i class="fab fa-facebook me-2 text-primary"></i> Facebook</a>
+                <a href="https://youtube.com" class="dropdown-item" target="blank_"> <i class="fab fa-youtube me-2 text-danger"></i> Youtube</a>
+                <a href="https://instagram.com" class="dropdown-item" target="blank_"> <i class="fab fa-instagram me-2 text-warning"></i> Instagram</a>
+                <a href="https://twitter.com" class="dropdown-item" target="blank_"> <i class="fab fa-twitter me-2 text-primary"></i> Twitter</a>
+                <div class="dropdown-divider"></div>
+                <a href="https://gmail.com" class="dropdown-item" target="blank_"> <i class="fas fa-envelope me-2 text-success"></i> Email</a>
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+
+        <div class="btn-group">
+        <button class="btn btn-danger btn-smx">Contact us</button>
+        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+        
+
+            <div class="dropdown-menu" aria-labelledby="contactMenuBtn">
+                <a href="https://facebook.com" class="dropdown-item" target="blank_"> <i class="fab fa-facebook me-2 text-primary"></i> Facebook</a>
+                <a href="https://youtube.com" class="dropdown-item" target="blank_"> <i class="fab fa-youtube me-2 text-danger"></i> Youtube</a>
+                <a href="https://instagram.com" class="dropdown-item" target="blank_"> <i class="fab fa-instagram me-2 text-warning"></i> Instagram</a>
+                <a href="https://twitter.com" class="dropdown-item" target="blank_"> <i class="fab fa-twitter me-2 text-primary"></i> Twitter</a>
+                <div class="dropdown-divider"></div>
+                <a href="https://gmail.com" class="dropdown-item" target="blank_"> <i class="fas fa-envelope me-2 text-success"></i> Email</a>
+            </div>        
+    </div>
+
+    <hr class="my-5" style="padding-top: 200px;">
+    </div>
+
+
+    <script src="../assest/js/jquery.min.js"></script>
+    <script src="../assest/js/bootstrap.bundle.min.js"></script>
+    <script src="../assest/js/bootstrap.min.js"></script>
+
+</body>
+</html>

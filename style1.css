@@ -1,0 +1,15 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+  }
+  
+  @media all and (max-width:480px){
+  .mobile-block{
+      width: 100%;
+      display: block;
+    }
+  }
+  .bs-color{
+    background-color: #563d7c;
+    color: #FFF;
+  }
+  
